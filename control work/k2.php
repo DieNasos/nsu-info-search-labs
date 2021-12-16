@@ -1,0 +1,9 @@
+<html>
+    <?php
+        include("k3.inc");
+        include("k4.inc");
+        include("k5.inc");
+        include("k6.inc");
+    ?>
+    </body>
+</html>

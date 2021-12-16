@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Control work: main form</title>
+    </head>
+    <body>
+        <form action="k2.php" method="GET">
+            <table>
+                <tr>
+                    <td width="150"></td>
+                    <td align="center" width="200" colspan="2">Show</td>
+                </tr>
+                <tr>
+                    <td width="150">tables</td>
+                    <td align="center" width="100">structure</td>
+                    <td align="center" width="100">content</td>
+                </tr>
+                <tr>
+                    <td width="150">Salesmen (sal)</td>
+                    <td align="center" width="100"><input type="checkbox" name="sal[]" value="str"></td>
+                    <td align="center" width="100"><input type="checkbox" name="sal[]" value="con"></td>
+                </tr>
+                <tr>
+                    <td width="150">Customers (cust)</td>
+                    <td align="center" width="100"><input type="checkbox" name="cust[]" value="str"></td>
+                    <td align="center" width="100"><input type="checkbox" name="cust[]" value="con"></td>
+                </tr>
+                <tr>
+                    <td width="150">Orders (ord)</td>
+                    <td align="center" width="100"><input type="checkbox" name="ord[]" value="str"></td>
+                    <td align="center" width="100"><input type="checkbox" name="ord[]" value="con"></td>
+                </tr>
+            </table>
+            <p><input type="submit" value="Show!"></p>
+        </form>
+    </body>
+</html>
